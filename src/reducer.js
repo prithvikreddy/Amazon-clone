@@ -1,15 +1,5 @@
 export const initialState = {
-  basket: [
-    {
-      id: "1",
-      title:
-        "Rich Dad Poor Dad: What the Rich Teach Their Kids About Money That the Poor and Middle Class Do Not!llo",
-      price: 10.39,
-      rating: 4,
-      image:
-        "https://images-na.ssl-images-amazon.com/images/I/51wOOMQ+F3L._SX312_BO1,204,203,200_.jpg",
-    },
-  ],
+  basket: [],
 };
 
 export const getBasketTotal = (basket) =>
